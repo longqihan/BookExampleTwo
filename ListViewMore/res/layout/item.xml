@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+     
+    <ImageView 
+        android:id="@+id/iv_ion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        />
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/iv_ion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="美国灭亡安倍陪葬发货反馈回复哈萨克好看好看发郭德纲的看"/>
+    <TextView 
+        android:id="@+id/tv_message"
+        android:layout_toRightOf="@id/iv_ion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#999999"
+        android:textSize="15sp"
+        android:text="美国灭亡安倍陪葬发货反馈回复哈萨克好看好看发郭德纲的看"
+        />
+
+</RelativeLayout>
