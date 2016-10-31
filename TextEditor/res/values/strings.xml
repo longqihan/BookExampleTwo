@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">文本编辑器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">简单文本编辑器</string>
+    <string name="color">颜色</string>
+    <string name="red">红色</string>
+    <string name="blue">蓝色</string>
+    <string name="green">绿色</string>
+    <string name="size">大小</string>
+    <string name="bigger">增大</string>
+    <string name="smaller">缩小</string>
+    <string name="style">样式</string>
+    <string name="bold">加粗</string>
+    <string name="italic">倾斜</string>    
+    <string name="content">内容</string>
+    <string name="test_text">测试文字，测试文字！</string>
+    <string name="moren">默认</string>
+
+</resources>

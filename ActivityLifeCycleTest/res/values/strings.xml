@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">ActivityLifeCycleTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="second">Go to SecondActivity</string>
+    <string name="third">Go to ThirdActivity</string>
+    <string name="main">Go to MainActivity</string>
+
+</resources>
