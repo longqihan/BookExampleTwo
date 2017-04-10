@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res/com.zhy.zhy_slidemenu_demo02"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/tabbg"
+            android:orientation="horizontal" >
+
+            <com.LQH.jwzx_demo.View.ChangeColorIconWithTextView
+                android:id="@+id/id_indicator_one"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                zhy:icon="@drawable/zx"
+                zhy:text="资讯"
+                zhy:text_size="12sp" />
+
+            <com.LQH.jwzx_demo.View.ChangeColorIconWithTextView
+                android:id="@+id/id_indicator_two"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                zhy:icon="@drawable/stu"
+                zhy:text="学生"
+                zhy:text_size="12sp" />
+
+            <com.LQH.jwzx_demo.View.ChangeColorIconWithTextView
+                android:id="@+id/id_indicator_three"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                zhy:icon="@drawable/jiaos"
+                zhy:text="教师"
+                zhy:text_size="12sp" />
+
+            <com.LQH.jwzx_demo.View.ChangeColorIconWithTextView
+                android:id="@+id/id_indicator_four"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                zhy:icon="@drawable/ss"
+                zhy:text="历表"
+                zhy:text_size="12sp" />
+        </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

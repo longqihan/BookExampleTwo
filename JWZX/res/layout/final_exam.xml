@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#efefef" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/final_exam"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#c80099cc"
+            android:gravity="center"
+            android:text="loading"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_bg3"
+            android:gravity="center"
+            android:text="注：因部分老师未提交成绩，缓考、免听、加分等处理未能到位，此成绩仅供参加，正式成绩以开学后下发为准。" />
+
+        <ListView
+            android:id="@+id/my_grade"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/refresh_final_grade"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_selector1"
+        android:gravity="center"
+        android:text="刷新" />
+
+</RelativeLayout>

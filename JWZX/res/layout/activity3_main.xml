@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/table_bg3"
+        android:orientation="vertical" >
+<ImageView
+        android:id="@+id/id_table"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/fe" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/corner_bg3" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="校历表"
+            android:textColor="#999999"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/id_school_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+       
+    </LinearLayout>
+   
+
+    <include layout="@layout/button" />
+
+</RelativeLayout>

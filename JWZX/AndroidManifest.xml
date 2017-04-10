@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhy.zhy_slidemenu_demo02"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.LQH.jwzx_demo.utils.MyAppliction"
+        android:allowBackup="true"
+        android:icon="@drawable/studenttitle"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.LQH.jwzx_demo.Activity.MainActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.AndyViewPagerActivity" >
+        </activity>
+        <activity
+            android:name="com.LQH.jwzx_demo.Activity.WelActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.Student_Activuty" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.FinalGradeActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.AllgradeActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.Techer_Activuty" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.MainActivity1" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.MainActivity2" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.MainActivity3" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.LoginActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.RegisterActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.TableActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.NewsActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.Presionactivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.ScheduleActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.SpeakingActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.TestArragementActivity" >
+        </activity>
+        <activity android:name="com.LQH.jwzx_demo.Activity.MakeupExamActivity" >
+        </activity>
+    </application>
+
+</manifest>
